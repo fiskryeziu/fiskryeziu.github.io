@@ -60,7 +60,7 @@ nav.navigation {
   right: 0;
   height: 100vh;
   width: 100%;
-  z-index: 1000;
+  z-index: 2;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
