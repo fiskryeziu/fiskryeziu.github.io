@@ -9,11 +9,11 @@ function KoheMatsi()
     const VitiiRi = new Date(KohaVititRi)
     const KohaTashme = new Date()
 
-    const SaSekonda = (VitiiRi - KohaTashme)/1000
-    const Ditet = Math.floor(SaSekonda/3600/24)
-    const Oret = Math.floor(SaSekonda / 3600) % 60
-    const Minutat= Math.floor(SaSekonda/60) % 60
-    const Sekondat=Math.floor(SaSekonda) %60
+    const SaSekonda = (VitiiRi - KohaTashme) / 1000
+    const Ditet = Math.floor(SaSekonda / 3600 / 24)
+    const Oret = Math.floor(SaSekonda / 3600) % 24
+    const Minutat= Math.floor(SaSekonda / 60) % 60
+    const Sekondat=Math.floor(SaSekonda) % 60
     
     DitetEl.innerHTML = Ditet
     OretEl.innerHTML = Oret
