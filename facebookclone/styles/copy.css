@@ -742,6 +742,7 @@ main .container {
 
 .active {
   left: 0;
+  overflow-y:scroll;
 }
 .togglelinks ul 
 {
