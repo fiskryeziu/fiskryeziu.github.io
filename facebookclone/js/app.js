@@ -16,7 +16,7 @@ toggleBtn.addEventListener('click',() =>
 {
   if(menuToggle.classList.contains('active'))
   {
-  document.body.style.position = 'initial'
+  document.body.style.position = 'static'
    menuToggle.classList.remove('active')
   }
  else {
